@@ -79,9 +79,8 @@ public class YellowCoal {
 
         @Override
         public int getItemBurnTime(ItemStack itemStack) {
-            if(itemStack.getMetadata()<16) return 6400;
-            if(itemStack.getMetadata()==17) return 6400;
-            return 0;
+            if(itemStack.getMetadata()!=16) return 6400;
+            return 25600;
         }
     }
 
@@ -91,10 +90,8 @@ public class YellowCoal {
         public int colorMultiplier(ItemStack stack, int tintIndex) {
             if(stack.getMetadata()<16){
                 return EnumDyeColor.byDyeDamage(stack.getMetadata()).getColorValue();
-            }
-            switch (stack.getMetadata()) {
-                case 16: return 0xFFFF00;
-                default: return 0xFFFFFF;
+            } else if(stack.getMetadata()==16){ 
+                return 0xFFFF00;
             }
         }
     }

@@ -1,0 +1,22 @@
+{
+    "result": {
+        "item": "yellowcoal:coal",
+        "data": 6
+    },
+    "pattern": [
+        "ccc",
+        "cdc",
+        "ccc"
+    ],
+    "type": "forge:ore_shaped",
+    "key": {
+        "d": {
+            "type": "forge:ore_dict",
+            "ore": "dyeCyan"
+        },
+        "c": {
+            "item": "minecraft:coal",
+            "data": 0
+        }
+    }
+}

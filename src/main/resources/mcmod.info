@@ -1,0 +1,10 @@
+[
+    {
+        "modid": "yellowcoal",
+        "name": "Yellow Coal",
+        "description": "Yellow coal for your reactor",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "authorList": ["AmazigJj"]
+    }
+]

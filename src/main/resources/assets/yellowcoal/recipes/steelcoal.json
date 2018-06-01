@@ -1,0 +1,22 @@
+{
+    "result": {
+        "item": "yellowcoal:coal",
+        "data": 17
+    },
+    "pattern": [
+        "scs",
+        "csc",
+        "scs"
+    ],
+    "type": "forge:ore_shaped",
+    "key": {
+        "s": {
+            "type": "forge:ore_dict",
+            "ore": "ingotSteel"
+        },
+        "c": {
+            "item": "minecraft:coal",
+            "data": 0
+        }
+    }
+}

@@ -90,9 +90,8 @@ public class YellowCoal {
         public int colorMultiplier(ItemStack stack, int tintIndex) {
             if(stack.getMetadata()<16){
                 return EnumDyeColor.byDyeDamage(stack.getMetadata()).getColorValue();
-            } else if(stack.getMetadata()==16){ 
-                return 0xFFFF00;
             }
+            return 0xFFFF00;
         }
     }
 
